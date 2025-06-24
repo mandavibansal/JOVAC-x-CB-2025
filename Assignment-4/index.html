@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <style>
+        .box1, .box2, .box3 {
+            padding: 20px;
+            border: 3px solid #333;
+            margin: 15px;
+            background-color: #fafafa;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+        }
+        .display {
+            margin-top: 25px;
+            font-size: 19px;
+            font-weight: bold;
+            color: #006400;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box1">Grandparent
+        <div class="box2">Parent
+            <div class="box3">Child</div>
+        </div>
+    </div>
+
+    <div class="display">Result: </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
